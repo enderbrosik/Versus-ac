@@ -2,6 +2,9 @@ name: Build Geode Mod (macOS)
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - build/macos-manual
 
 permissions:
   contents: read
